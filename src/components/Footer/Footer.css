@@ -1,0 +1,46 @@
+.f-container {
+  justify-content: space-around;
+}
+
+.f-left {
+  gap: 2rem;
+}
+
+.copyright {
+  color: rgba(180, 180, 180, 0.78);
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.f-right {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  color: aliceblue;
+  max-width: 200px;
+  width: 100%;
+}
+
+.element {
+  list-style-type: none;
+  margin: 17px 0;
+}
+
+.element:hover {
+  transform: scale(1.1);
+  transition: all 300ms ease-in;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 868px) {
+  .f-container {
+    justify-content: center;
+  }
+  .f-container > div {
+    align-items: center;
+    text-align: center;
+  }
+}

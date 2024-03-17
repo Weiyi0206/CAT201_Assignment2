@@ -1,0 +1,101 @@
+.s-container {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.s-right {
+  display: flex;
+  flex: 1 1;
+  gap: 2rem;
+}
+
+.s-right > :nth-child(4) {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.s-left {
+  flex: 1;
+  position: relative;
+}
+
+.s-left > img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 15rem;
+}
+
+.s-left > :nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: 2px solid rgb(36, 150, 135);
+  background-color: transparent;
+  right: 16rem;
+  top: -1rem;
+  box-shadow: var(--shadow);
+}
+
+.s-left > :nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  background: linear-gradient(97.05deg, #40ffef 3.76%, #08a487 100%);
+  right: 14rem;
+  top: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: -2rem;
+  left: 26rem;
+}
+
+.arrows > :hover {
+  scale: 1.2;
+  transition: all 300ms ease-in;
+  box-shadow: var(--shadow);
+}
+
+.arrows > img {
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .s-container {
+    flex-direction: column-reverse;
+  }
+
+  .s-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .s-left > div {
+    position: relative;
+    display: none;
+  }
+  .s-left > img {
+    position: relative;
+    align-self: center;
+    right: 0rem;
+  }
+
+  .s-left > :last-child {
+    display: block;
+    left: 0;
+    bottom: 0;
+    scale: 1.3;
+  }
+}

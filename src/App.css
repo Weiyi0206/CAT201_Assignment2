@@ -1,0 +1,44 @@
+.App {
+  position: relative;
+  overflow-x: clip;
+  background: var(--black);
+  position: relative;
+}
+
+.white-gradient {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: rgba(255, 255, 255, 0.522);
+  filter: blur(100px);
+  border-radius: 100px;
+  right: 72rem;
+  top: 135rem;
+}
+
+.blue-gradient {
+  position: absolute;
+  width: 34rem;
+  height: 40rem;
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.green-gradient {
+  position: absolute;
+  width: 28rem;
+  height: 13rem;
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #34a4ca 100%);
+  filter: blur(120px);
+  top: 320rem;cd
+  right: 67rem;
+}
+
+.pink-gradient {
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+  right: 10rem;
+}

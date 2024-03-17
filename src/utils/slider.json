@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AeroBeats Nova",
+    "price": "399",
+    "detail": "Combine the nostalgia of classic headphones with modern engineering for a listening experience that's both familiar and cutting-edge",
+    "image": "./Product1.jpeg"
+  },
+  {
+    "name": "SonicElite Focus",
+    "price": "1,399",
+    "detail": "Say goodbye to dropped calls and interference. Our wired headsets offer reliability and clarity that wireless options simply can't match",
+    "image": "./Product2.jpeg"
+  },
+  {
+    "name": "PulseLink Velocity",
+    "price": "159",
+    "detail": "Classic audio experience, allowing you to savor your music without worrying about battery life or wireless interference",
+    "image": "./Product3.jpeg"
+  },
+  {
+    "name": "PulseLink Fusion",
+    "price": "229",
+    "detail": "Stay in control and ahead of the game with wired earphones that offer seamless communication and audio excellence for professionals and gamers alike",
+    "image": "./Product4.jpeg"
+  },
+  {
+    "name": "SonicElite Pro",
+    "price": "499",
+    "detail": "Take your music with you wherever you roam, and let our wireless earbuds provide the soundtrack to your adventures",
+    "image": "./Product5.jpeg"
+  },
+  {
+    "name": "AeroBeats Nova",
+    "price": "2,199",
+    "detail": "Elevate your auditory journey with our speakers, delivering breathtaking sound that fills every corner of your space",
+    "image": "./Product6.jpeg"
+  }
+]

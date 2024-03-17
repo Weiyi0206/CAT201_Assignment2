@@ -1,0 +1,36 @@
+.inner-container {
+  gap: 1.5rem;
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  padding: 2rem;
+  border-radius: 10px;
+  border: 6px solid #2f646c;
+  text-align: center;
+}
+
+.inner-container .primaryText {
+  color: white;
+  font-weight: 600;
+}
+
+.inner-container .secondaryText {
+  color: rgba(255, 255, 255, 0.587);
+}
+
+.inner-container .button {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  color: #11101d;
+  font-weight: 600;
+}
